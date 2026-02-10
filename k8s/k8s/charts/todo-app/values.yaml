@@ -11,7 +11,7 @@ backend:
     port: 8000
     nodePort: 30080  # Fixed port for easy access
   env:
-    DATABASE_URL: "postgresql://neondb_owner:npg_c6fIubW3eNMx@ep-quiet-wave-ad68glnf-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+    DATABASE_URL: ""
     API_HOST: "0.0.0.0"
     API_PORT: "8000"
     JWT_SECRET: "your-super-secret-jwt-key-change-in-production"
